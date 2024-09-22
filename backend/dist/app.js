@@ -8,7 +8,7 @@ const express_1 = __importDefault(require("express"));
 const cors_1 = __importDefault(require("cors"));
 const app = (0, express_1.default)();
 exports.app = app;
-app.use((0, cors_1.default)({ origin: "http://localhost:5173", credentials: true }));
+app.use((0, cors_1.default)({ origin: "https://med-o-shop-1.onrender.com", credentials: true }));
 app.use(express_1.default.json({
     limit: "32kb",
 }));
