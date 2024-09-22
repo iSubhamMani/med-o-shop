@@ -1,7 +1,7 @@
 const PASSWORD_REGEX = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$/gm;
 const PAGINATION_OFFSET = 10;
 const PINCODE_REGEX = /^[1-9][0-9]{5}$/;
-const BACKEND_URL = "http://localhost:8001";
+const BACKEND_URL = "https://med-o-shop.onrender.com";
 
 const STATES = {
   andhra_pradesh: "Andhra Pradesh",
