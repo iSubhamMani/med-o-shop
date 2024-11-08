@@ -14,7 +14,7 @@ export default function LandingPage() {
               <div className="flex flex-col justify-center space-y-4">
                 <div className="space-y-2">
                   <h1 className="text-3xl font-bold text-black tracking-tighter sm:text-5xl xl:text-6xl/none">
-                    Your One-Stop Medical E-commerce Solution
+                    Your One-Stop Medical E-commerce Solution <span className="text-primary">Med-o-Shop</span>
                   </h1>
                   <p className="max-w-[600px] text-black md:text-xl">
                     Discover a wide range of medical supplies, equipment, and
